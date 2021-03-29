@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', function () {
     loadCopyrightYear()
     //lazy load the background images
-    lazyLoadBackgroundImage('bloc-0', '/img/heroJPG@2x.png');
-    lazyLoadBackgroundImage('bloc-3', '/img/Group%2029.png');
+    lazyLoadBackgroundImage('bloc-0', './img/heroJPG@2x.png');
+    lazyLoadBackgroundImage('bloc-3', './img/Group%2029.png');
 });
 
 function loadCopyrightYear() {
